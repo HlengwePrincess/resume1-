@@ -1,29 +1,65 @@
 body{
   font-family: sans-serif;
   font-size:110%;
-  background-color: #FCF7F8;
+  background-color:lightsalmon;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+
+}
+.main {
+
+  display: flex;
+  flex-direction: row;
+  overflow:unset;
+  width: 99vw;
+}
+
+
+img {
+width: 15%;
+height: 15%;
+border-radius: 50%;
+border-color:5px blue;
+ 
 }
 
 header {
   text-align: center;
 background-color: grey;
+justify-content: center;
 }
 #heading {
-  font-family: 'Times New Roman', Times, serif;
+ font-family: sans-serif;
   font-size: 110%;
-  background-color: gray;
-  color: whites;
+  background-color:cadetblue;
+  color: white;
   }
-
+  
+  
 footer {
   
   text-align: center;
 }
 #sidebar{
 width: 20%;
-background-color: aqua;
+background-color:grey;
+padding: 1rem;
+color:white;
 }
+#otherside{
+width: 80%;
+padding: 1rem;
+
+}
+
 .nav-menu{
 list-style: none;
 
+}
+
+Contact Details{
+  width: 3rem;
+  margin: 2rem;
+  height: auto;
 }
